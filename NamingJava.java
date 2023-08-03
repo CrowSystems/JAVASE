@@ -7,5 +7,15 @@ public class NamingJava {
         System.out.println(celPhone);
 
         String $contryName = "Spain";
+        String _backgroundColor = "Green";
+
+        String currency$ = "MXN";
+        String background_color = "BLUE";
+
+        int POSITION = -5;
+        int MAX_WIDTH = 9999;
+        int MIN_WIDTH = 1;
+
+
     }
 }
