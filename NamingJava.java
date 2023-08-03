@@ -15,7 +15,5 @@ public class NamingJava {
         int POSITION = -5;
         int MAX_WIDTH = 9999;
         int MIN_WIDTH = 1;
-
-
     }
 }
