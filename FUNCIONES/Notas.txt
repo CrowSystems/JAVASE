@@ -1,0 +1,17 @@
+Funciones
+    Organizar y modularizar el código.
+    Reutilizar código.
+    Evitar código repetitivo.
+
+Si nuestras funciones van a devolver argumentos, lo mejor es que espesifiques el tipo de dato que seran.
+Para utilizar nuestras funciones solo debemos signar el resultado de la función y sus parametros a una 
+variable con el mismo tipo de dato de la función.
+
+Jemplo:
+public int suma(int a, int b){
+    return a+b;
+}
+public: mod. acceso
+int: valor regreso.
+suma: nombre de la función.
+(int a, int b): argumentos.
