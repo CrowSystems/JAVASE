@@ -12,6 +12,12 @@ public class Main{
         try {
             myConn = DriverManager.getConnection("null","","");
             System.out.println("Conexión generada.");
+
+            myStamt = myConn.createStatement();
+            
+        } catch(Exception e){
+            e.printStackTrace();
+            System.out.println("Fallo en la conexión");
         }
     }
 }
